@@ -1,0 +1,1 @@
+window.addEventListener("load",()=>{const targetBlankLinks=document.querySelectorAll('a[target="_blank"]');targetBlankLinks.forEach((link)=>{let newTabNotice=document.createElement('span');newTabNotice.textContent='opens in new tab';newTabNotice.classList.add('screen-reader-text');link.append(newTabNotice)})})

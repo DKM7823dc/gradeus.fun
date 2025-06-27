@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" x="0px" y="0px" viewBox="0 0 1366 350.8" style="enable-background:new 0 0 1366 350.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#078FE6;}
+	.st1{fill:none;}
+	.st2{opacity:0.1;clip-path:url(#SVGID_2_);}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:11;stroke-miterlimit:10;}
+</style>
+<rect class="st0" width="1366" height="350.8"></rect>
+<rect class="st1" width="1068.4" height="344.1"></rect>
+<g>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" width="1148.1" height="369.8"></rect>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_" style="overflow:visible;"></use>
+		</clipPath>
+		<g class="st2">
+			<g>
+				<path class="st3" d="M90.6,194.1l19.1,107.8l-96.9-50.5l-4.1-2.7l-4.1,2.7l-96.9,50.5l19.1-107.8l1.4-4.1l-2.7-2.7l-77.8-76.4      l107.8-15l4.1-1.4l2.7-4.1l47.8-97l47.8,96.9l2.7,4.1l4.1,1.4l107.8,15l-77.8,76.4L92,190L90.6,194.1z"></path>
+			</g>
+			<circle class="st4" cx="9.2" cy="162.5" r="174.2"></circle>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,24 @@
+.elementor-kit-491{--e-global-color-primary:#0F7BE0;--e-global-color-secondary:#2C353E;--e-global-color-text:#637280;--e-global-color-accent:#1BBB46;--e-global-color-48fc699a:#4054B2;--e-global-color-6f64aaf7:#108F32;--e-global-color-efb73fd:#000;--e-global-color-48797a8c:#FFF;--e-global-color-2aef050:#032950;--e-global-color-f3c0d0e:#212324;--e-global-color-184fe55:#107BE0;--e-global-color-6af62c8:#D1DEFF;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-size:35px;--e-global-typography-primary-font-weight:400;--e-global-typography-primary-line-height:43px;--e-global-typography-secondary-font-family:"Roboto";--e-global-typography-secondary-font-size:30px;--e-global-typography-secondary-font-weight:400;--e-global-typography-secondary-line-height:40px;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-size:16px;--e-global-typography-text-font-weight:300;--e-global-typography-text-line-height:30px;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;--e-global-typography-74a0060-font-family:"Roboto";--e-global-typography-74a0060-font-size:13px;--e-global-typography-74a0060-font-weight:400;--e-global-typography-74a0060-line-height:20px;--e-global-typography-634c50a-font-family:"Roboto";--e-global-typography-634c50a-font-size:19px;--e-global-typography-634c50a-font-weight:300;--e-global-typography-634c50a-line-height:29px;--e-global-typography-d4e37be-font-size:24px;--e-global-typography-d4e37be-font-weight:300;--e-global-typography-d4e37be-line-height:37px;color:var( --e-global-color-text );font-family:"Roboto", sans-serif;font-size:16px;font-weight:300;line-height:25px;}.elementor-kit-491 button,.elementor-kit-491 input[type="button"],.elementor-kit-491 input[type="submit"],.elementor-kit-491 .elementor-button{background-color:var( --e-global-color-accent );font-size:13px;font-weight:500;text-transform:uppercase;color:var( --e-global-color-48797a8c );}.elementor-kit-491 button:hover,.elementor-kit-491 button:focus,.elementor-kit-491 input[type="button"]:hover,.elementor-kit-491 input[type="button"]:focus,.elementor-kit-491 input[type="submit"]:hover,.elementor-kit-491 input[type="submit"]:focus,.elementor-kit-491 .elementor-button:hover,.elementor-kit-491 .elementor-button:focus{background-color:var( --e-global-color-primary );}.elementor-kit-491 e-page-transition{background-color:#FFBC7D;}.elementor-kit-491 a{color:var( --e-global-color-primary );}.elementor-kit-491 h1{color:var( --e-global-color-secondary );}.elementor-kit-491 h2{color:var( --e-global-color-secondary );font-size:30px;font-weight:400;}.elementor-kit-491 h3{color:var( --e-global-color-secondary );}.elementor-kit-491 h4{color:var( --e-global-color-secondary );}.elementor-kit-491 h5{color:var( --e-global-color-secondary );font-size:20px;font-weight:300;}.elementor-kit-491 h6{color:var( --e-global-color-secondary );font-size:15px;font-weight:300;line-height:20px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1240px;}.e-con{--container-max-width:1240px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-kit-491{--e-global-typography-primary-font-size:30px;--e-global-typography-secondary-font-size:28px;--e-global-typography-secondary-line-height:38px;--e-global-typography-634c50a-font-size:17px;--e-global-typography-634c50a-line-height:26px;--e-global-typography-d4e37be-font-size:21px;--e-global-typography-d4e37be-line-height:30px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */img[src$="svg"] {
+    width:100%;
+}
+.is-primary {
+    color: #0F7BE0 !important;
+}
+p:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+.elementor-widget-image a img[src$=".svg"] {
+    width: 100%;
+}
+
+.top-nav {
+    z-index: 10 !important;
+}
+
+@media screen and (max-width: 1140px) { 
+html .elementor-nav-menu--main .elementor-nav-menu a, html  .elementor-nav-menu--main .elementor-nav-menu a.highlighted, html .elementor-nav-menu--main .elementor-nav-menu a:focus, html  .elementor-nav-menu--main .elementor-nav-menu a:hover {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+}/* End custom CSS */
