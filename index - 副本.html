@@ -44,70 +44,6 @@
 		padding: 0 !important;
 	}
 </style>
-
- <style>
-       
-        .contact-button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        .contact-button:hover {
-            background-color: #0056b3;
-        }
-        /* 模态框样式 */
-        .contact-modal {
-            display: none;
-            position: fixed;
-            z-index: 1;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0, 0, 0, 0.7);
-            justify-content: center;
-            align-items: center;
-        }
-        .modal-content {
-            background-color: #ffffff;
-            margin: auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 300px;
-            text-align: center;
-            border-radius: 10px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-        }
-        .modal-close {
-            color: #aaa;
-            float: right;
-            font-size: 24px;
-            font-weight: bold;
-        }
-        .modal-close:hover,
-        .modal-close:focus {
-            color: #000;
-            text-decoration: none;
-            cursor: pointer;
-        }
-        h2 {
-            margin: 0;
-            font-size: 18px;
-            color: #333;
-        }
-        p {
-            color: #555;
-            margin: 10px 0;
-        }
-    </style>
-	
-	
 <style id="classic-theme-styles-inline-css" type="text/css">
 /*! This file is auto-generated */
 .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
@@ -1067,35 +1003,9 @@ if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_c
 <script>(()=>{class RocketElementorPreload{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode-wpr",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}t(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this.i(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach((t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this.o(t)}catch(t){}}))}o(t){const e=JSON.parse(t.dataset.settings),i=e.m||e.animation_delay||0,n=e[this.animationSettingKeys.find((t=>e[t]))];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let o=setTimeout((()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this.l(t,e)}),i);window.addEventListener("rocket-startLoading",(function(){clearTimeout(o)}))}i(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach((t=>{e.forEach((e=>{i.push(t+e)}))})),i}l(t,e){this.i().forEach((t=>delete e[t])),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorPreload;requestAnimationFrame(t.t.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorPreload.run)})();</script>
 
 <script>
-		 function aac222() {
+		 function aac() {
 			window.location.href = "https://www.qq.com";
 		}
 	</script>
-
-
-    <div id="myModal" class="contact-modal">
-        <div class="modal-content">
-            <span class="modal-close" onclick="closeModal()">&times;</span>
-        <h2>Contact Us</h2> 
-            <p><strong>Email: support@gradeus.tech</strong></p>
-        </div>
-    </div>
-
- <script>
-        function aac() {
-            document.getElementById("myModal").style.display = "flex"; // 使用 flexbox
-        }
-
-        function closeModal() {
-            document.getElementById("myModal").style.display = "none";
-        }
-
-        window.onclick = function(event) {
-            const modal = document.getElementById("myModal");
-            if (event.target === modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
 
 </body></html>
